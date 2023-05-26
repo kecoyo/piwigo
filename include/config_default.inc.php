@@ -887,7 +887,7 @@ $conf['enable_extensions_install'] = true;
 //
 // The default expression is restrictive but safe and sane ASCII only
 // alphanumeric and hyphen-minus and underscore and dot.
-$conf['sync_chars_regex'] = '/^[a-zA-Z0-9-_.]+$/';
+$conf['sync_chars_regex'] = '/^[a-zA-Z0-9-_.\x{4e00}-\x{9fa5}]+$/u';
 
 // folders name excluded during synchronization
 $conf['sync_exclude_folders'] = array();
