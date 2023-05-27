@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.0, created on 2023-05-24 22:43:35
+/* Smarty version 4.1.0, created on 2023-05-27 15:45:15
   from '/www/piwigo/themes/default/template/menubar_categories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_646e229740eb45_84612749',
+  'unifunc' => 'content_6471b50b08a8f6_69492176',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_646e229740eb45_84612749 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471b50b08a8f6_69492176 (Smarty_Internal_Template $_smarty_tpl) {
 ?><dt>
 <?php if ((isset($_smarty_tpl->tpl_vars['U_START_FILTER']->value))) {?>
 	<a href="<?php echo $_smarty_tpl->tpl_vars['U_START_FILTER']->value;?>

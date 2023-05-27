@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.0, created on 2023-05-25 20:14:17
+/* Smarty version 4.1.0, created on 2023-05-27 15:48:54
   from '/www/piwigo/admin/themes/default/template/batch_manager_global.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_646f5119461a32_67245559',
+  'unifunc' => 'content_6471b5e6ad0675_83496322',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:include/add_album.inc.tpl' => 1,
   ),
 ),false)) {
-function content_646f5119461a32_67245559 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471b5e6ad0675_83496322 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/www/piwigo/include/smarty/libs/plugins/function.html_options.php','function'=>'smarty_function_html_options',),));
 $_smarty_tpl->_subTemplateRender('file:include/datepicker.inc.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('load_mode'=>'async'), 0, false);
 $_smarty_tpl->_subTemplateRender('file:include/colorbox.inc.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('load_mode'=>'async'), 0, false);
@@ -56,13 +56,13 @@ $_smarty_tpl->_subTemplateRender('file:include/add_album.inc.tpl', $_smarty_tpl-
 <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['combine_script'][0], array( array('id'=>'batchManagerGlobal','load'=>'async','require'=>'jquery,datepicker,jquery.colorbox,addAlbum,doubleSlider','path'=>'admin/themes/default/js/batchManagerGlobal.js'),$_smarty_tpl ) );?>
 
 
-<?php $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0] : null;
-if (!is_callable(array($_block_plugin1, 'block_footer_script'))) {
+<?php $_block_plugin2 = isset($_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0] : null;
+if (!is_callable(array($_block_plugin2, 'block_footer_script'))) {
 throw new SmartyException('block tag \'footer_script\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('footer_script', array());
 $_block_repeat=true;
-echo $_block_plugin1->block_footer_script(array(), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin2->block_footer_script(array(), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 var lang = {
@@ -419,7 +419,7 @@ var sliders = {
 };
 
 <?php $_block_repeat=false;
-echo $_block_plugin1->block_footer_script(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin2->block_footer_script(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 
@@ -685,13 +685,13 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['res']->value) {
 $_smarty_tpl->tpl_vars['res']->do_else = false;
 $_smarty_tpl->tpl_vars['res']->index++;
 $_smarty_tpl->tpl_vars['res']->first = !$_smarty_tpl->tpl_vars['res']->index;
-$__foreach_res_1_saved = $_smarty_tpl->tpl_vars['res'];
+$__foreach_res_2_saved = $_smarty_tpl->tpl_vars['res'];
 ?>
     <?php if (!$_smarty_tpl->tpl_vars['res']->first) {?> &mdash; <?php }?>
     <?php echo $_smarty_tpl->tpl_vars['res']->value;?>
 
 <?php
-$_smarty_tpl->tpl_vars['res'] = $__foreach_res_1_saved;
+$_smarty_tpl->tpl_vars['res'] = $__foreach_res_2_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     </strong></em>
@@ -787,13 +787,13 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
   </p>
 
 	<ul class="thumbnails">
-		<?php $_block_plugin2 = isset($_smarty_tpl->smarty->registered_plugins['block']['html_style'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['html_style'][0][0] : null;
-if (!is_callable(array($_block_plugin2, 'block_html_style'))) {
+		<?php $_block_plugin3 = isset($_smarty_tpl->smarty->registered_plugins['block']['html_style'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['html_style'][0][0] : null;
+if (!is_callable(array($_block_plugin3, 'block_html_style'))) {
 throw new SmartyException('block tag \'html_style\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('html_style', array());
 $_block_repeat=true;
-echo $_block_plugin2->block_html_style(array(), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin3->block_html_style(array(), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 UL.thumbnails SPAN.wrap2{
@@ -805,7 +805,7 @@ UL.thumbnails SPAN.wrap2 {
 px;
 }
 		<?php $_block_repeat=false;
-echo $_block_plugin2->block_html_style(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin3->block_html_style(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['thumbnails']->value, 'thumbnail');

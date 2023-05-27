@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.0, created on 2023-05-24 22:43:37
+/* Smarty version 4.1.0, created on 2023-05-27 15:45:44
   from '/www/piwigo/themes/modus/css/picture.css.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_646e2299ac1b93_07351533',
+  'unifunc' => 'content_6471b5289e9889_33717100',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_646e2299ac1b93_07351533 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471b5289e9889_33717100 (Smarty_Internal_Template $_smarty_tpl) {
 ?>#imageHeaderBar .imageNumber {
 /* moved by prefilter from imageToolBar*/
 	float: right;

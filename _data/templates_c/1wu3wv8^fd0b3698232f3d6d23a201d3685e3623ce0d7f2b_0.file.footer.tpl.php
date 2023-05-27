@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.0, created on 2023-05-24 22:43:37
+/* Smarty version 4.1.0, created on 2023-05-27 15:45:45
   from '/www/piwigo/themes/modus/template/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_646e2299c53f25_59130182',
+  'unifunc' => 'content_6471b529178847_16233780',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_646e2299c53f25_59130182 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471b529178847_16233780 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="copyright">
 <?php if ((isset($_smarty_tpl->tpl_vars['debug']->value['TIME']))) {
 if (!is_admin()) {?><!--<?php echo $_smarty_tpl->tpl_vars['debug']->value['TIME'];?>

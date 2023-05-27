@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.0, created on 2023-05-24 22:43:57
+/* Smarty version 4.1.0, created on 2023-05-27 15:45:06
   from '/www/piwigo/admin/themes/default/template/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_646e22ad34faa0_16730120',
+  'unifunc' => 'content_6471b502926a90_48962126',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_646e22ad34faa0_16730120 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471b502926a90_48962126 (Smarty_Internal_Template $_smarty_tpl) {
 ?></div>
 <?php if ((isset($_smarty_tpl->tpl_vars['footer_elements']->value))) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['footer_elements']->value, 'elt');
@@ -66,13 +66,13 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 
 <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['combine_script'][0], array( array('id'=>'jquery.tipTip','load'=>'footer','path'=>'themes/default/js/plugins/jquery.tipTip.minified.js'),$_smarty_tpl ) );?>
 
-<?php $_block_plugin5 = isset($_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0] : null;
-if (!is_callable(array($_block_plugin5, 'block_footer_script'))) {
+<?php $_block_plugin6 = isset($_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['footer_script'][0][0] : null;
+if (!is_callable(array($_block_plugin6, 'block_footer_script'))) {
 throw new SmartyException('block tag \'footer_script\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('footer_script', array('require'=>'jquery.tipTip'));
 $_block_repeat=true;
-echo $_block_plugin5->block_footer_script(array('require'=>'jquery.tipTip'), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6->block_footer_script(array('require'=>'jquery.tipTip'), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 jQuery('.tiptip').tipTip({
@@ -86,7 +86,7 @@ jQuery('a.externalLink').click(function() {
   return false;
 });
 <?php $_block_repeat=false;
-echo $_block_plugin5->block_footer_script(array('require'=>'jquery.tipTip'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6->block_footer_script(array('require'=>'jquery.tipTip'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 
