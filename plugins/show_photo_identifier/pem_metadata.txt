@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/plegall/Piwigo-show_photo_identifier 
+Revision: 75b42b8b2766a3a048ef26d93939439ee4748c4c (Thu Nov 25 15:10:44 2021 +0100)

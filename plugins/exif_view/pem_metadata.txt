@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/plegall/Piwigo-exif_view 
+Revision: 1c59a0af72a7058ecd1335031594268ceffab4d2 (Wed Jul 20 12:18:27 2022 +0200)

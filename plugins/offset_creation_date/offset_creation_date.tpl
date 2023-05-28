@@ -1,0 +1,4 @@
+<div id="set_date_available">
+      <input type="text" name="creation_date_hours_offset" value="{$CREATION_DATE_HOURS_OFFSET}" style="padding: 12px 10px; border: 1px solid #787777a6;margin-bottom: 8px;background-color: #FFF;color: #4E4E4E;width: 400px;font-size: 1em;" name="date_creation_increment_hours" placeholder="{'Type here the number of hours to add to the creation date'|@translate}">
+      <input type="text" name="creation_date_minutes_offset" value="{$CREATION_DATE_MINUTES_OFFSET}" style="padding: 12px 10px; border: 1px solid #787777a6;margin-bottom: 8px;background-color: #FFF;color: #4E4E4E;width: 400px;font-size: 1em;" name="date_creation_increment_hours" placeholder="{'Type here the number of minutes to add to the creation date'|@translate}">
+</div>

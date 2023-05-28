@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/Piwigo/Piwigo-Fotorama 
+Revision: 087808ae56b5016d5055f665c30836b9dfc78986 (Fri Nov 19 09:53:37 2021 +0100)

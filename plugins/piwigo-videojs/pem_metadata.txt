@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/xbgmsharp/piwigo-videojs 
+Revision: 8ea659691d383bd53f7c5a9f2a7359abc294ec19 (Sat Aug 4 11:08:20 2018 +0200)

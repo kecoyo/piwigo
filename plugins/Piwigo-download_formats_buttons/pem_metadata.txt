@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/Piwigo/Piwigo-download_formats_buttons 
+Revision: f418303fdc15695f5faae7cfa211ea0bdcb5abee (Fri May 6 16:48:17 2022 +0200)
