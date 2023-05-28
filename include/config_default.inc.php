@@ -936,7 +936,7 @@ $conf['tiff_representative_ext'] = 'png';
 // in the upload form, let users upload only picture_exts or all file_exts?
 // for some file types, Piwigo will try to generate a pwg_representative
 // (TIFF, videos, PDF)
-$conf['upload_form_all_types'] = false;
+$conf['upload_form_all_types'] = true;
 
 // Size of chunks, in kilobytes. Fast connections will have better
 // performances with high values, such as 5000.

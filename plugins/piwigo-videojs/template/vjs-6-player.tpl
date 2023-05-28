@@ -1,10 +1,16 @@
 {html_head}
 <link href="{$VIDEOJS_PATH}video-js-6/video-js.min.css" rel="stylesheet">
 <script src="{$VIDEOJS_PATH}video-js-6/video.min.js"></script>
+<style>
+.wide #theImage {
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+</style>
 {/html_head}
 
 {literal}
-<video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" {/literal}{$OPTIONS}{literal} poster={/literal}"{$VIDEOJS_POSTER_URL}"{literal} datasetup='{}' x-webkit-airplay="allow">
+<video id="my_video_1" class="video-js vjs-big-play-centered vjs-fluid vjs-default-skin" {/literal}{$OPTIONS}{literal} poster={/literal}"{$VIDEOJS_POSTER_URL}"{literal} datasetup='{}' x-webkit-airplay="allow">
 {/literal}
 {if not empty($videos)}
 {foreach from=$videos item=video}
